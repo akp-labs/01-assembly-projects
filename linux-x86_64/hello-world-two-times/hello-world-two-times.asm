@@ -1,4 +1,4 @@
-; hello-world.asm
+; hello-world-two-times.asm
 ; Linux x86_64 NASM
 ; Prints "Hello, world!" using raw syscalls two times
 

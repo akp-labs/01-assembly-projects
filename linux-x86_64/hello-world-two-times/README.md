@@ -1,14 +1,14 @@
 # Hello World Two Times
 
-A **x86-64 NASM** program that prints `Hello, World!` two times to standard output using **Linux syscalls**.  
-This small program demonstrates the basics of direct system call usage in assembly.
+A **x86-64 NASM** program that prints `Hello, World!` twice to standard output using **Linux syscalls**.  
+This minimal project demonstrates how to interact directly with the operating system from assembly, without relying on libraries or runtime layers.
 
 ## Main features
 - Written in **x86-64 NASM syntax**
 - Uses **direct Linux syscalls** (`write`, `exit`)
 - No libc, no runtime, no abstractions
-- Simple `build.sh` for assembling and linking
-- Ideal starting point for learning assembly fundamentals
+- Includes a simple `build.sh` script for assembling and linking
+- Serves as an ideal starting point for learning assembly fundamentals
 
 ## Build & Run
 
