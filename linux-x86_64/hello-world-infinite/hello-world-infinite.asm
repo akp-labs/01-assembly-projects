@@ -1,9 +1,9 @@
 ; hello-world-infinite.asm
 ; Linux x86_64 NASM
-; Prints "Hello, World!" infinitely to the standard output 
+; Prints "Hello, world!" infinitely to the standard output 
 
 section .data
-    msg db "Hello, World!", 0x0A
+    msg db "Hello, world!", 0x0A
     len equ $ - msg
 
 section .text

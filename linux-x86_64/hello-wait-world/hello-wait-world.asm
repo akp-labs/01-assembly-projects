@@ -1,10 +1,10 @@
 ; hello-wait-world.asm
 ; Linux x86_64 NASM
-; Prints "Hello", wait 2.5 seconds and then print "world!" using raw syscalls
+; Prints "Hello, ", wait 2.5 seconds and then print "world!" using raw syscalls
 
 
 section .data
-    msg1 db "hello ", 0x0A
+    msg1 db "Hello, ", 0x0A
     len1 equ $ - msg1
 
     msg2 db "world!", 0x0A
@@ -18,7 +18,7 @@ section .text
     global _start
 
 _start:
-    ; write "hello"
+    ; write "Hello, "
     mov rax, 1          ; sys_write
     mov rdi, 1          ; stdout
     mov rsi, msg1
@@ -31,7 +31,7 @@ _start:
     xor rsi, rsi        ; NULL (no remaining time)
     syscall
 
-    ; write "world"
+    ; write "world!"
     mov rax, 1          ; sys_write
     mov rdi, 1
     mov rsi, msg2

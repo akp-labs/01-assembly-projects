@@ -36,10 +36,11 @@ All projects are organized under the `linux-x86_64/` folder. Each project has it
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/akp-labs/00-small-projects.git
+   git clone https://github.com/akpandey-dev/01-assembly-projects.git
    ```
 2. Navigate to the folder of your interest.
-3. Follow the usage instruction inside the README.md of that specific folder.
+3. Follow the usage instruction inside the `README.md` of that specific folder.
+4. Carefully read the sections in README
 
 ## License
 

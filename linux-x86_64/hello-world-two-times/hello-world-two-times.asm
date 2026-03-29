@@ -3,7 +3,7 @@
 ; Prints "Hello, world!" using raw syscalls two times
 
 section .data
-    msg db "Hello, World!", 0x0A   ; message with newline
+    msg db "Hello, world!", 0x0A   ; message with newline
     len equ $ - msg               ; length of message
 
 section .text
