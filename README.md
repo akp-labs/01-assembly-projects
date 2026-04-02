@@ -1,4 +1,4 @@
-# 01-assembly-projects
+# Assembly Projects
 
 This repository contains small, focused assembly projects written in x86-64 NASM for Linux.
 Goal: understand execution, memory, and syscalls at the lowest level.
@@ -36,7 +36,7 @@ All projects are organized under the `linux-x86_64/` folder. Each project has it
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/akpandey-dev/01-assembly-projects.git
+   git clone https://github.com/akpandey-dev/assembly-projects.git
    ```
 2. Navigate to the folder of your interest.
 3. Follow the usage instruction inside the `README.md` of that specific folder.
